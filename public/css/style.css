@@ -1,0 +1,52 @@
+/* public/css/style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  background-image: url('images.jpg'); /* Specify the path to your image */
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav {
+  background-color: #333; /* Updated background color to match the navigation bar style */
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Added overflow: hidden; to hide any floated elements */
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+section {
+  margin: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
